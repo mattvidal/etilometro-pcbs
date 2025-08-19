@@ -2,8 +2,35 @@
 FileName = v4.3.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Layer
-      File : v4.3_Copper_Signal_Top.gbr
+Generating : Bottom Layer
+      File : v4.3.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D43
+    D44
+    D48
+    D49
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : v4.3.GTP
+
+    Adding Layer      : Top Paste
 
     Adding Layer      : Top Layer
 
@@ -11,10 +38,76 @@ Generating : Top Layer
 
 
 Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : v4.3.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
     D10
     D11
     D12
     D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : v4.3.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : v4.3.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
     D14
     D15
     D16
@@ -33,98 +126,10 @@ Used DCodes :
     D29
     D30
     D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : v4.3_Copper_Signal_Bot.gbr
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D27
-    D28
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : v4.3_Legend_Top.gbr
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D41
-    D42
     D43
     D44
-    D45
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : v4.3_Legend_Bot.gbr
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : v4.3_Soldermask_Top.gbr
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D12
-    D13
-    D14
-    D16
-    D18
-    D19
-    D20
-    D22
-    D32
-    D35
-    D36
-    D39
-    D46
-    D47
     D48
     D49
-    D50
-    D51
     D52
     D53
     D54
@@ -134,69 +139,11 @@ Used DCodes :
     D58
     D59
     D60
-    D61
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : v4.3_Soldermask_Bot.gbr
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D32
-    D35
-    D36
-    D39
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-    D61
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : v4.3_Paste_Top.gbr
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
 *************************************************************
 
 *************************************************************
 Generating : Bottom Paste
-      File : v4.3_Paste_Bot.gbr
+      File : v4.3.GBP
 
     Adding Layer      : Bottom Paste
 
@@ -209,36 +156,64 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Bottom Overlay
+      File : v4.3.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : v4.3.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D17
+    D19
+    D21
+    D22
+    D23
+    D26
+    D27
+    D30
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+*************************************************************
+
+*************************************************************
 Generating : Profile
-      File : v4.3_Profile.gbr
+      File : v4.3.GM
 
 
 Used DCodes :
-    D62
-*************************************************************
-
-*************************************************************
-Generating : Non-plated through-hole drill file
-      File : v4.3_NPTH_Drill.gbr
-
-
-Used DCodes :
-    D63
-*************************************************************
-
-*************************************************************
-Generating : Plated through-hole drill file
-      File : v4.3_PTH_Drill.gbr
-
-
-Used DCodes :
-    D64
-    D65
-    D66
-    D67
-    D68
-    D69
-    D70
-    D71
+    D61
 *************************************************************
 

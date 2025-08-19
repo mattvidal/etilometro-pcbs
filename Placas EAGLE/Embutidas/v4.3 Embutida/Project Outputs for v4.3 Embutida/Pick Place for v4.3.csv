@@ -1,0 +1,45 @@
+Altium Designer Pick and Place Locations
+D:\Projetos\Etilometro\Eletrônica\Placas EAGLE\Embutidas\v4.3 Embutida\Project Outputs for v4.3 Embutida\Pick Place for v4.3.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       19/08/25
+Time:       19:47
+Revision:   eab55205ce6dc83abdca8e346eb52d4ce28f9c1d
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"CIN_ALT","EEEFK1V471SP","TopLayer","FP-FKSG-MFG","11.3370mm","10.3680mm","0","CAP ALUM 470UF 20% 35V SMD"
+"CIN_5V","EEEFK1V471SP","TopLayer","FP-FKSG-MFG","35.5370mm","29.5680mm","0","CAP ALUM 470UF 20% 35V SMD"
+"R3","MOV-14D471K","TopLayer","FP-MOV-14D471K-MFG","36.2370mm","19.4680mm","180","VARISTOR 470V 4.5KA DISC 14MM"
+"R2","10k","TopLayer","RESC2013X50X30LL20T20","72.8370mm","42.1680mm","0",""
+"Q2","BC847B","TopLayer","INF-SOT23_M","72.9370mm","46.1680mm","90","NPN Silicon AF Transistor, 45 V VCEO, 100 mA IC, SOT23, Reel, Green"
+"L1_ALT","SPM6545VT-470M-D","TopLayer","SPM6545VT","9.4370mm","30.7680mm","180","Inductor (FeSi Core)"
+"L1_5V","SRR1260-680M","TopLayer","INDPM125125X650N","53.1370mm","39.8680mm","90","Inductor"
+"L1_KEY","SPM6545VT-470M-D","TopLayer","SPM6545VT","35.3370mm","59.4680mm","90","Inductor (FeSi Core)"
+"K2","G5LE-14-DC5","TopLayer","FP-G5LE-14-DC5-MFG","87.3370mm","50.2680mm","90","RELAY GEN PURPOSE SPDT 10A 5V"
+"J3","43045-0800","TopLayer","43045-08(00,01,02,10)","56.1370mm","9.4080mm","0","Connector"
+"J2","43045-0600","TopLayer","43045-06(00,01,02,10)","37.0370mm","9.4080mm","0","Connector"
+"J1","DB9","TopLayer","L77DFE09S1AMN","83.2070mm","11.9380mm","0","Connector"
+"IC_SERIAL1","MAX3232CSE+T","TopLayer","SOIC127P600X175-16N","85.5370mm","25.2680mm","0","Integrated Circuit"
+"IC_ALT","XL1509-3V3E1","TopLayer","SOIC127P600X175-8N","10.2370mm","20.3680mm","270","Integrated Circuit"
+"IC_5V","XL1509-5.0E1","TopLayer","SOIC127P600X175-8N","34.0370mm","43.1680mm","180","Integrated Circuit"
+"IC_KEY","XL1509-3V3E1","TopLayer","SOIC127P600X175-8N","22.4490mm","59.8330mm","180","Integrated Circuit"
+"D5","S1GFL","TopLayer","FP-425AD-MFG","72.8370mm","51.8680mm","270","S1GFL Rectifier Diode, 1 Phase, 1 Element, 1A, 400V V(RRM), Silicon"
+"D1_ALT","1N5819HW1-7-F","TopLayer","FP-SOD123F_Type_B-MFG","17.7370mm","32.0680mm","90","DIODE SBR 40V 1A SOD123F"
+"D1_5V","1N5819HW1-7-F","TopLayer","FP-SOD123F_Type_B-MFG","62.5370mm","36.1680mm","90","DIODE SBR 40V 1A SOD123F"
+"D1_KEY","1N5819HW1-7-F","TopLayer","FP-SOD123F_Type_B-MFG","36.7370mm","51.3680mm","0","DIODE SBR 40V 1A SOD123F"
+"C14","08055C104J4T2A","TopLayer","FP-0805-L_2_01_0_2-W_1_25-MFG","78.4370mm","20.7680mm","0","Automotive Ceramic Capacitor, 0805, 100nF, 5%, X7R, 15%, 50V"
+"C13","08055C104J4T2A","TopLayer","FP-0805-L_2_01_0_2-W_1_25-MFG","90.9370mm","30.9680mm","90","Automotive Ceramic Capacitor, 0805, 100nF, 5%, X7R, 15%, 50V"
+"C12","08055C104J4T2A","TopLayer","FP-0805-L_2_01_0_2-W_1_25-MFG","79.4370mm","24.5680mm","90","Automotive Ceramic Capacitor, 0805, 100nF, 5%, X7R, 15%, 50V"
+"C11","08055C104J4T2A","TopLayer","FP-0805-L_2_01_0_2-W_1_25-MFG","83.3370mm","34.4680mm","0","Automotive Ceramic Capacitor, 0805, 100nF, 5%, X7R, 15%, 50V"
+"C10","08055C104J4T2A","TopLayer","FP-0805-L_2_01_0_2-W_1_25-MFG","79.3370mm","29.7680mm","90","Automotive Ceramic Capacitor, 0805, 100nF, 5%, X7R, 15%, 50V"
+"COUT_ALT","MAL215099001E3","TopLayer","FP-MAL2150-1010-MFG","10.7370mm","42.8680mm","180","MAL215099001E3 Aluminum Electrolytic Capacitor, 220 uF, 35 V, ± 20%, 2000 hours @ 105°C, Radial Can - SMD"
+"C1_ALT","08055C105KAT2A","TopLayer","FP-0805-L_2_01_0_2-W_1_25-MFG","16.6370mm","23.1680mm","0","General Purpose Ceramic Capacitor, 0805, 1uF, 10%, X7R, 15%, 50V"
+"COUT_5V","B40900B7277M000","TopLayer","CAPAE1030X1050N","53.3370mm","25.9680mm","180","Capacitor Polarised"
+"C1_5V","08055C105KAT2A","TopLayer","FP-0805-L_2_01_0_2-W_1_25-MFG","40.9370mm","37.5680mm","0","General Purpose Ceramic Capacitor, 0805, 1uF, 10%, X7R, 15%, 50V"
+"COUT_KEY","MAL215099001E3","TopLayer","FP-MAL2150-1010-MFG","51.1370mm","58.0680mm","90","MAL215099001E3 Aluminum Electrolytic Capacitor, 220 uF, 35 V, ± 20%, 2000 hours @ 105°C, Radial Can - SMD"
+"CIN_KEY","EEEFK1V471SP","TopLayer","FP-FKSG-MFG","9.8370mm","57.5680mm","270","CAP ALUM 470UF 20% 35V SMD"
+"C1_KEY","08055C105KAT2A","TopLayer","FP-0805-L_2_01_0_2-W_1_25-MFG","25.2370mm","52.3680mm","270","General Purpose Ceramic Capacitor, 0805, 1uF, 10%, X7R, 15%, 50V"
