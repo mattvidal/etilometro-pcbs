@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=RX_EXT Pin=J2-5
+Added Pin To Net: NetName=ALT_IN Pin=J2-5

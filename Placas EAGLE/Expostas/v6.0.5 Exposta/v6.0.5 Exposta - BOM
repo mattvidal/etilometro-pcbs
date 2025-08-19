@@ -1,0 +1,20 @@
+Part     Value                MPN
+A/D                           ADS1115IDGST                                                            
+BUZZER                        CMI-1295-0585T                               
+C1       100n                 C0805C104K8RACAUTO                                                      
+C2       100n                 C0805C104K8RACAUTO                                                      
+C9       1µF                  GRM21BR71A105KA01K                                                      
+C8       1µF                  GRM21BR71A105KA01K                                                      
+MICROFIT                      MOLEX 43045-0800                                                        
+R1       100                  RA73F2A100RBTDF          
+R2       100                  RA73F2A100RBTDF          
+R3       10k                  RP0805FRE0710KL          
+R4       10K                  RP0805FRE0710KL                                                         
+R5       10K                  RP0805FRE0710KL                                                         
+R6       10K                  RP0805FRE0710KL                                                         
+R7       10K                  RP0805FRE0710KL                                                         
+U$1                           WT32-SC01 v3.3                                                          
+U$2                           HX710B                                                                  
+U$3                           MPS20N0040D-GDR                                                         
+U1                            DHT22            
+X2                            6 Pin - 2mm Dual Row

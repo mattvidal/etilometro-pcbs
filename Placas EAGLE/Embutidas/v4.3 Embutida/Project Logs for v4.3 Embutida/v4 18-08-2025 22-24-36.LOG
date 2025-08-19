@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=CIN_5V Old Footprint=EEHZU1E681UV New Footprint=CAPAE1280X1400N
+Change Component Footprint: Designator=CIN_ALT Old Footprint=EEHZU1E681UV New Footprint=CAPAE1280X1400N
+Change Component Footprint: Designator=CIN_KEY Old Footprint=EEHZU1E681UV New Footprint=CAPAE1280X1400N
+Change Component Comment : Designator=CIN_5V Old Comment=EEH-ZU1V471UV New Comment=EDH477M035S9RAA
+Change Component Comment : Designator=CIN_ALT Old Comment=EEH-ZU1V471UV New Comment=EDH477M035S9RAA
+Change Component Comment : Designator=CIN_KEY Old Comment=EEH-ZU1V471UV New Comment=EDH477M035S9RAA

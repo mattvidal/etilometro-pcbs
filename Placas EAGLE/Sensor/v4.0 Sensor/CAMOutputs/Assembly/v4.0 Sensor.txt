@@ -1,0 +1,16 @@
+Partlist exported from C:/Matheus/Etilômetro/Eletrônica/Placas EAGLE/Sensor/MQ303A + EEPROM V4.0/v4.0 Sensor.sch at 30/11/2023 14:08
+
+Qty Value                    Device                           Package        Parts  Description                                     MPN                    POPULARITY
+2   100nF                    CAP_CERAMIC0805                  0805           C2, C3 Ceramic Capacitors                              C0805C104K8RACAUTO               
+1   10K                      RESISTOR0805                     0805           R4     Resistors                                       RCC080510K0FKEA                  
+1   10uH                     L'PIO73'                         PIO73          L1                                                     SDR7045-100M                     
+1   10µF                     CAP_CERAMIC0805                  0805           C1     Ceramic Capacitors                              GRM21BR71A106KA73K               
+1   16K                      RESISTOR0805                     0805           R2     Resistors                                       RK73H2ARTTD1602F                 
+1   1K                       RESISTOR0805                     0805           R1     Resistors                                       RP73PF2A1K0BTDF                  
+1   20K                      RESISTOR0805                     0805           R3     Resistors                                       RCC080520K0FKEA                  
+1   332-06                   332-06                           332-06         X2     6 Pin - 2mm Dual Row                            6 Pin - 2mm Dual Row   0         
+1   4,7uF                    CAP_CERAMIC0805                  0805           C5     Ceramic Capacitors                              0805ZG475ZAT4A                   
+1   DECADE-AT24C256-10TI-2.7 DECADE-AT24C256-10TI-2.7         DECADE-AT24CXX U$1                                                    AT24C256-TSSOC                   
+1   MQ303A                   MQ303A                           MQ303A         U2                                                     MQ303B                           
+1   Si2305DS                 MOSFET-P'SI2323CDS/SI2305DS<BR>' SOT23          Q1                                                     SI2305DS                         
+1   TPS62200                 TPS62200DBV                      SOT23-5        U1     High-Efficiency,SOT23 STEP-DOWN,DC-DC Converter TPS62200DBVR                     

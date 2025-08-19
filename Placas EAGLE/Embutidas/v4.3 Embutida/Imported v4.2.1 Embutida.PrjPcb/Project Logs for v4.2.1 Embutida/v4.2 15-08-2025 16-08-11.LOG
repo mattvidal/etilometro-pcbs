@@ -1,0 +1,707 @@
+Removed Pin From Net: NetName=VCC_PRE Pin=FB1-1
+Change Component DesignItemId : Designator=FB1 Old DesignItemId=0805 New DesignItemId=FERRITE0805
+Change Component DesignItemId : Designator=EXTERNO_MICROFIT Old DesignItemId=43045-0600 New DesignItemId=HEADER_POS6_?43045-0600
+Change Component DesignItemId : Designator=ESPIRAL_MICROFIT Old DesignItemId=43045-0800 New DesignItemId=HEADER_POS8_?43045-0800
+Change Component DesignItemId : Designator=C10 Old DesignItemId=B45181C New DesignItemId=CPOL-EUB45181C
+Change Component DesignItemId : Designator=C13 Old DesignItemId=C0805 New DesignItemId=C*-0805
+Change Component DesignItemId : Designator=C14 Old DesignItemId=C0805 New DesignItemId=C*-0805
+Change Component DesignItemId : Designator=C15 Old DesignItemId=C0805 New DesignItemId=C*-0805
+Change Component DesignItemId : Designator=C1 Old DesignItemId=C0805 New DesignItemId=C-EUC0805
+Change Component DesignItemId : Designator=C3 Old DesignItemId=C0805 New DesignItemId=C-EUC0805
+Change Component DesignItemId : Designator=C4 Old DesignItemId=C0805 New DesignItemId=C-EUC0805
+Change Component DesignItemId : Designator=C5 Old DesignItemId=C0805 New DesignItemId=C-EUC0805
+Change Component DesignItemId : Designator=C6 Old DesignItemId=C0805 New DesignItemId=C-EUC0805
+Change Component DesignItemId : Designator=RV1 Old DesignItemId=MOV14D471K New DesignItemId=MOV-14D471K
+Change Component DesignItemId : Designator=C2 Old DesignItemId=PANASONIC_D New DesignItemId=CPOL-EUD
+Change Component DesignItemId : Designator=C8 Old DesignItemId=PANASONIC_D New DesignItemId=CPOL-EUD
+Change Component DesignItemId : Designator=C9 Old DesignItemId=PANASONIC_D New DesignItemId=CPOL-EUD
+Change Component DesignItemId : Designator=R1 Old DesignItemId=R0805 New DesignItemId=R-EU_R0805
+Change Component DesignItemId : Designator=R2 Old DesignItemId=R0805 New DesignItemId=R-EU_R0805
+Change Component DesignItemId : Designator=R3 Old DesignItemId=R0805 New DesignItemId=R-EU_R0805
+Change Component DesignItemId : Designator=R4 Old DesignItemId=R0805 New DesignItemId=R-EU_R0805
+Change Component DesignItemId : Designator=L1 Old DesignItemId=SDE0604A-470M New DesignItemId=INDUCTOR
+Change Component DesignItemId : Designator=L2 Old DesignItemId=SDE0604A-470M New DesignItemId=INDUCTOR
+Change Component DesignItemId : Designator=L3 Old DesignItemId=SDE0604A-470M New DesignItemId=INDUCTOR
+Change Component DesignItemId : Designator=IC1 Old DesignItemId=SO16 New DesignItemId=MAX232ECWES
+Change Component DesignItemId : Designator=D1 Old DesignItemId=SODFL3518X115N New DesignItemId=1N5819HW1-7-F
+Change Component DesignItemId : Designator=D2 Old DesignItemId=SODFL3518X115N New DesignItemId=1N5819HW1-7-F
+Change Component DesignItemId : Designator=D3 Old DesignItemId=SODFL3518X115N New DesignItemId=1N5819HW1-7-F
+Change Component DesignItemId : Designator=D4 Old DesignItemId=SODFL3617X108N New DesignItemId=S1MFL
+Change Component DesignItemId : Designator=IC_ALT Old DesignItemId=SOIC127P600X175-8N New DesignItemId=XL1509-3.3E1
+Change Component DesignItemId : Designator=IC_KEY Old DesignItemId=SOIC127P600X175-8N New DesignItemId=XL1509-3.3E1
+Change Component DesignItemId : Designator=IC_POWER Old DesignItemId=SOIC127P600X175-8N New DesignItemId=XL1509-3.3E1
+Change Component Comment : Designator=FB1 Old Comment= New Comment=1A
+Change Component Comment : Designator=D1 Old Comment= New Comment=1N5819HW1-7-F
+Change Component Comment : Designator=D2 Old Comment= New Comment=1N5819HW1-7-F
+Change Component Comment : Designator=D3 Old Comment= New Comment=1N5819HW1-7-F
+Change Component Comment : Designator=R4 Old Comment= New Comment=10k
+Change Component Comment : Designator=C13 Old Comment= New Comment=10uF/50V
+Change Component Comment : Designator=C14 Old Comment= New Comment=10uF/50V
+Change Component Comment : Designator=C15 Old Comment= New Comment=10uF/50V
+Change Component Comment : Designator=C2 Old Comment= New Comment=22uF/50v
+Change Component Comment : Designator=C8 Old Comment= New Comment=22uF/50V
+Change Component Comment : Designator=C9 Old Comment= New Comment=22uF/50V
+Change Component Comment : Designator=L1 Old Comment= New Comment=47uH
+Change Component Comment : Designator=L2 Old Comment= New Comment=47uH
+Change Component Comment : Designator=L3 Old Comment= New Comment=47uH
+Change Component Comment : Designator=R1 Old Comment= New Comment=100
+Change Component Comment : Designator=R2 Old Comment= New Comment=100
+Change Component Comment : Designator=R3 Old Comment= New Comment=100
+Change Component Comment : Designator=C1 Old Comment= New Comment=100n
+Change Component Comment : Designator=C3 Old Comment= New Comment=100n
+Change Component Comment : Designator=C4 Old Comment= New Comment=100n
+Change Component Comment : Designator=C5 Old Comment= New Comment=100n
+Change Component Comment : Designator=C6 Old Comment= New Comment=100n
+Change Component Comment : Designator=Q1 Old Comment= New Comment=BC847
+Change Component Comment : Designator=C10 Old Comment= New Comment=CPOL-EUB45181C
+Change Component Comment : Designator=FEMALE Old Comment= New Comment=F09H
+Change Component Comment : Designator=K1 Old Comment= New Comment=G5LE
+Change Component Comment : Designator=EXTERNO_MICROFIT Old Comment= New Comment=HEADER_POS6_?43045-0600
+Change Component Comment : Designator=ESPIRAL_MICROFIT Old Comment= New Comment=HEADER_POS8_?43045-0800
+Change Component Comment : Designator=IC1 Old Comment= New Comment=MAX232
+Change Component Comment : Designator=RV1 Old Comment= New Comment=MOV-14D471K
+Change Component Comment : Designator=D4 Old Comment= New Comment=S1MFL
+Change Component Comment : Designator=T1 Old Comment= New Comment=TRIMPOT 10K
+Change Component Comment : Designator=T2 Old Comment= New Comment=TRIMPOT 10K
+Change Component Comment : Designator=T3 Old Comment= New Comment=TRIMPOT 10K
+Change Component Comment : Designator=IC_ALT Old Comment= New Comment=XL1509-3.3E1
+Change Component Comment : Designator=IC_KEY Old Comment= New Comment=XL1509-3.3E1
+Change Component Comment : Designator=IC_POWER Old Comment= New Comment=XL1509-3.3E1
+Change Component Description : Designator=D1 Old Description= New Description=1N5819 Schottky Diode 40V 1A SOD123F   Source:  Datasheet
+Change Component Description : Designator=D2 Old Description= New Description=1N5819 Schottky Diode 40V 1A SOD123F   Source:  Datasheet
+Change Component Description : Designator=D3 Old Description= New Description=1N5819 Schottky Diode 40V 1A SOD123F   Source:  Datasheet
+Change Component Description : Designator=IC_ALT Old Description= New Description=40V 2A SOP-8_150mil DC-DC Converters RoHS   Source:  Datasheet
+Change Component Description : Designator=IC_KEY Old Description= New Description=40V 2A SOP-8_150mil DC-DC Converters RoHS   Source:  Datasheet
+Change Component Description : Designator=IC_POWER Old Description= New Description=40V 2A SOP-8_150mil DC-DC Converters RoHS   Source:  Datasheet
+Change Component Description : Designator=L1 Old Description= New Description=A very specific inductor
+Change Component Description : Designator=L2 Old Description= New Description=A very specific inductor
+Change Component Description : Designator=L3 Old Description= New Description=A very specific inductor
+Change Component Description : Designator=RV1 Old Description= New Description=Bourns MOV-14D Series Metal Oxide Varistor 430pF 50A, Clamping 775V, Varistor 470V   Source:  Datasheet   Check availability
+Change Component Description : Designator=C1 Old Description= New Description=CAPACITOR, European symbol
+Change Component Description : Designator=C3 Old Description= New Description=CAPACITOR, European symbol
+Change Component Description : Designator=C4 Old Description= New Description=CAPACITOR, European symbol
+Change Component Description : Designator=C5 Old Description= New Description=CAPACITOR, European symbol
+Change Component Description : Designator=C6 Old Description= New Description=CAPACITOR, European symbol
+Change Component Description : Designator=C13 Old Description= New Description=Ceramic Capacitors
+Change Component Description : Designator=C14 Old Description= New Description=Ceramic Capacitors
+Change Component Description : Designator=C15 Old Description= New Description=Ceramic Capacitors
+Change Component Description : Designator=D4 Old Description= New Description=Diode Standard 1000V 1A Surface Mount SOD-123F   Check availability
+Change Component Description : Designator=Q1 Old Description= New Description=Epitaxial Planar NPN transistor   Source:  Datasheet
+Change Component Description : Designator=FB1 Old Description= New Description=Ferrite Bead   0603 MMZ1608B121C - 120 Ohm, 600mA Ferrite Chip - Digikey: 445-2164-1-ND  BK1608HW121-T - 120 Ohm, 600mA Ferrite Chip - Digikey: 587-1876-2-ND       0805 HZ0805B272R-10 - 2.7K Ohm @ 100MHz, 200mA 0.8 Ohm DC Resistance - Digikey: 240-2504-1-ND (see also Murata BLM21BD272SN1L)
+Change Component Description : Designator=EXTERNO_MICROFIT Old Description= New Description=Molex - Micro-Fit 3.0 Series connector,  3.00mm (0.118") pitch header, 6 positions.
+Change Component Description : Designator=ESPIRAL_MICROFIT Old Description= New Description=Molex - Micro-Fit 3.0 Series connector,  3.00mm (0.118") pitch header, 8 positions.
+Change Component Description : Designator=C2 Old Description= New Description=POLARIZED CAPACITOR, European symbol
+Change Component Description : Designator=C8 Old Description= New Description=POLARIZED CAPACITOR, European symbol
+Change Component Description : Designator=C9 Old Description= New Description=POLARIZED CAPACITOR, European symbol
+Change Component Description : Designator=C10 Old Description= New Description=POLARIZED CAPACITOR, European symbol
+Change Component Description : Designator=K1 Old Description= New Description=RELAY   1 x switch, 10 A/120 V AC, 8 A/30 V DC, Omron
+Change Component Description : Designator=R1 Old Description= New Description=RESISTOR, European symbol
+Change Component Description : Designator=R2 Old Description= New Description=RESISTOR, European symbol
+Change Component Description : Designator=R3 Old Description= New Description=RESISTOR, European symbol
+Change Component Description : Designator=R4 Old Description= New Description=RESISTOR, European symbol
+Change Component Description : Designator=IC1 Old Description= New Description=RS232 TRANSEIVER
+Change Component Description : Designator=FEMALE Old Description= New Description=SUB-D
+Change Component Library : Designator=D1 Old Library= New Library=1N5819HW1-7-F.IntLib
+Change Component Library : Designator=D2 Old Library= New Library=1N5819HW1-7-F.IntLib
+Change Component Library : Designator=D3 Old Library= New Library=1N5819HW1-7-F.IntLib
+Change Component Library : Designator=Q1 Old Library= New Library=BC847.IntLib
+Change Component Library : Designator=ESPIRAL_MICROFIT Old Library= New Library=con-molex-micro-fit-3_0 (1).IntLib
+Change Component Library : Designator=EXTERNO_MICROFIT Old Library= New Library=con-molex-micro-fit-3_0 (1).IntLib
+Change Component Library : Designator=FEMALE Old Library= New Library=con-subd.IntLib
+Change Component Library : Designator=C13 Old Library= New Library=discrete.IntLib
+Change Component Library : Designator=C14 Old Library= New Library=discrete.IntLib
+Change Component Library : Designator=C15 Old Library= New Library=discrete.IntLib
+Change Component Library : Designator=IC1 Old Library= New Library=maxim-6b.IntLib
+Change Component Library : Designator=FB1 Old Library= New Library=microbuilder.IntLib
+Change Component Library : Designator=RV1 Old Library= New Library=MOV-14D471K.IntLib
+Change Component Library : Designator=L1 Old Library= New Library=passives.IntLib
+Change Component Library : Designator=L2 Old Library= New Library=passives.IntLib
+Change Component Library : Designator=L3 Old Library= New Library=passives.IntLib
+Change Component Library : Designator=C2 Old Library= New Library=rcl.IntLib
+Change Component Library : Designator=C8 Old Library= New Library=rcl.IntLib
+Change Component Library : Designator=C9 Old Library= New Library=rcl.IntLib
+Change Component Library : Designator=R1 Old Library= New Library=rcl.IntLib
+Change Component Library : Designator=R2 Old Library= New Library=rcl.IntLib
+Change Component Library : Designator=R3 Old Library= New Library=rcl.IntLib
+Change Component Library : Designator=R4 Old Library= New Library=rcl.IntLib
+Change Component Library : Designator=C1 Old Library= New Library=rcl@1.IntLib
+Change Component Library : Designator=C3 Old Library= New Library=rcl@1.IntLib
+Change Component Library : Designator=C4 Old Library= New Library=rcl@1.IntLib
+Change Component Library : Designator=C5 Old Library= New Library=rcl@1.IntLib
+Change Component Library : Designator=C6 Old Library= New Library=rcl@1.IntLib
+Change Component Library : Designator=K1 Old Library= New Library=relay.IntLib
+Change Component Library : Designator=D4 Old Library= New Library=S1MFL.IntLib
+Change Component Library : Designator=C10 Old Library= New Library=supercap.IntLib
+Change Component Library : Designator=T1 Old Library= New Library=TRIMPOT.IntLib
+Change Component Library : Designator=T2 Old Library= New Library=TRIMPOT.IntLib
+Change Component Library : Designator=T3 Old Library= New Library=TRIMPOT.IntLib
+Change Component Library : Designator=IC_ALT Old Library= New Library=XL1509-3.3E1.IntLib
+Change Component Library : Designator=IC_KEY Old Library= New Library=XL1509-3.3E1.IntLib
+Change Component Library : Designator=IC_POWER Old Library= New Library=XL1509-3.3E1.IntLib
+Change component parameters: Designator = "C1" ("C1"); Footprint = "C0805"; UniqueID = "\CAKSVIKC" ("CAKSVIKC")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "C0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "C-EU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "rcl@1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "C0805C104K8RACAUTO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "POPULARITY"; Value = "88"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SPICEPREFIX"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "C-EU"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2" ("C2"); Footprint = "PANASONIC_D"; UniqueID = "\KPGWJHUT" ("KPGWJHUT")
+Change component parameters (AddParameter): Name = "+"; Value = "+"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "CPOL-EU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "EEH-ZA1H220P"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "POPULARITY"; Value = "16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SPICEPREFIX"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "CPOL"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C3" ("C3"); Footprint = "C0805"; UniqueID = "\KMGUBPUO" ("KMGUBPUO")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "C0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "C-EU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "rcl@1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "C0805C104K8RACAUTO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "POPULARITY"; Value = "88"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SPICEPREFIX"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "C-EU"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C4" ("C4"); Footprint = "C0805"; UniqueID = "\LYXKGXMD" ("LYXKGXMD")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "C0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "C-EU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "rcl@1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "C0805C104K8RACAUTO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "POPULARITY"; Value = "88"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SPICEPREFIX"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "C-EU"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C5" ("C5"); Footprint = "C0805"; UniqueID = "\VGLIJNJQ" ("VGLIJNJQ")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "C0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "C-EU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "rcl@1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "C0805C104K8RACAUTO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "POPULARITY"; Value = "88"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SPICEPREFIX"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "C-EU"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C6" ("C6"); Footprint = "C0805"; UniqueID = "\UKYXYQXY" ("UKYXYQXY")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "C0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "C-EU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "rcl@1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "C0805C104K8RACAUTO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "POPULARITY"; Value = "88"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SPICEPREFIX"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "C-EU"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C8" ("C8"); Footprint = "PANASONIC_D"; UniqueID = "\HEOOVYPX" ("HEOOVYPX")
+Change component parameters (AddParameter): Name = "+"; Value = "+"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "CPOL-EU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "EEH-ZA1H220P"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "POPULARITY"; Value = "16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SPICEPREFIX"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "CPOL"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C9" ("C9"); Footprint = "PANASONIC_D"; UniqueID = "\NELXXPYE" ("NELXXPYE")
+Change component parameters (AddParameter): Name = "+"; Value = "+"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "CPOL-EU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "EEH-ZA1H220P"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "POPULARITY"; Value = "16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SPICEPREFIX"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "CPOL"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C10" ("C10"); Footprint = "B45181C"; UniqueID = "\BRBDXONH" ("BRBDXONH")
+Change component parameters (AddParameter): Name = "+"; Value = "+"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "B45181C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "CPOL-EU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "supercap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "POPULARITY"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SPICEPREFIX"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "CPOL"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C13" ("C13"); Footprint = "C0805"; UniqueID = "\EDEXLJJJ" ("EDEXLJJJ")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "-0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "C*"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "discrete"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "C2012X5R1H106K125AC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C14" ("C14"); Footprint = "C0805"; UniqueID = "\CVFOBJBP" ("CVFOBJBP")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "-0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "C*"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "discrete"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "C2012X5R1H106K125AC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C15" ("C15"); Footprint = "C0805"; UniqueID = "\YUWFCGYW" ("YUWFCGYW")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "-0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "C*"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "discrete"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "C2012X5R1H106K125AC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D1" ("D1"); Footprint = "SODFL3518X115N"; UniqueID = "\JOUOJXSM" ("JOUOJXSM")
+Change component parameters (AddParameter): Name = "ARROW_PART_NUMBER"; Value = "1N5819HW1-7-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ARROW_PRICE-STOCK"; Value = "https://www.arrow.com/en/products/1n5819hw1-7-f/diodes-incorporated?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "1N5819HW1-7-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HEIGHT"; Value = "1.15mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "1N5819HW1-7-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANUFACTURER_NAME"; Value = "Diodes Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANUFACTURER_PART_NUMBER"; Value = "1N5819HW1-7-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MOUSER_PART_NUMBER"; Value = "621-1N5819HW1-7-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MOUSER_PRICE-STOCK"; Value = "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N5819HW1-7-F?qs=60RJRzIpcl9ACQG7Zn63jQ%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "1N5822 SS34"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "1N5819HW1-7-F"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D2" ("D2"); Footprint = "SODFL3518X115N"; UniqueID = "\XTJYTVGY" ("XTJYTVGY")
+Change component parameters (AddParameter): Name = "ARROW_PART_NUMBER"; Value = "1N5819HW1-7-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ARROW_PRICE-STOCK"; Value = "https://www.arrow.com/en/products/1n5819hw1-7-f/diodes-incorporated?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "1N5819HW1-7-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HEIGHT"; Value = "1.15mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "1N5819HW1-7-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANUFACTURER_NAME"; Value = "Diodes Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANUFACTURER_PART_NUMBER"; Value = "1N5819HW1-7-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MOUSER_PART_NUMBER"; Value = "621-1N5819HW1-7-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MOUSER_PRICE-STOCK"; Value = "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N5819HW1-7-F?qs=60RJRzIpcl9ACQG7Zn63jQ%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "1N5822 SS34"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "1N5819HW1-7-F"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D3" ("D3"); Footprint = "SODFL3518X115N"; UniqueID = "\VETFIPTX" ("VETFIPTX")
+Change component parameters (AddParameter): Name = "ARROW_PART_NUMBER"; Value = "1N5819HW1-7-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ARROW_PRICE-STOCK"; Value = "https://www.arrow.com/en/products/1n5819hw1-7-f/diodes-incorporated?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "1N5819HW1-7-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HEIGHT"; Value = "1.15mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "1N5819HW1-7-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANUFACTURER_NAME"; Value = "Diodes Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANUFACTURER_PART_NUMBER"; Value = "1N5819HW1-7-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MOUSER_PART_NUMBER"; Value = "621-1N5819HW1-7-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MOUSER_PRICE-STOCK"; Value = "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N5819HW1-7-F?qs=60RJRzIpcl9ACQG7Zn63jQ%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "1N5822 SS34"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "1N5819HW1-7-F"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D4" ("D4"); Footprint = "SODFL3617X108N"; UniqueID = "\FVIXWLTJ" ("FVIXWLTJ")
+Change component parameters (AddParameter): Name = "AVAILABILITY"; Value = "In Stock"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CHECK_PRICES"; Value = "https://www.snapeda.com/parts/S1MFL/Onsemi/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "S1MFL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "S1MFL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "onsemi"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "S1MFL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PACKAGE"; Value = "SOD-123F ON Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PURCHASE-URL"; Value = "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=7151124&manufacturer=onsemi&part_name=S1MFL&search_term=None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SNAPEDA_LINK"; Value = "https://www.snapeda.com/parts/S1MFL/Onsemi/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "S1MFL"; VariantName = "[No Variations]"
+Change component parameters: Designator = "ESPIRAL_MICROFIT" ("ESPIRAL_MICROFIT"); Footprint = "43045-0800"; UniqueID = "\NSOEPIMG" ("NSOEPIMG")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "43045-0800"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "HEADER_POS8_?"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "con-molex-micro-fit-3_0 (1)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "43045-0800"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "HEADER_POS8"; VariantName = "[No Variations]"
+Change component parameters: Designator = "EXTERNO_MICROFIT" ("EXTERNO_MICROFIT"); Footprint = "43045-0600"; UniqueID = "\AJWVGQBB" ("AJWVGQBB")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "43045-0600"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "HEADER_POS6_?"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "con-molex-micro-fit-3_0 (1)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "43045-0600"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "HEADER_POS6"; VariantName = "[No Variations]"
+Change component parameters: Designator = "FB1" ("FB1"); Footprint = "0805"; UniqueID = "\TPYQPRTY" ("TPYQPRTY")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "FERRITE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "microbuilder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "BLM21AG121SN1D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "FERRITE"; VariantName = "[No Variations]"
+Change component parameters: Designator = "FEMALE" ("FEMALE"); Footprint = "F09H"; UniqueID = "\MNBHAPJG" ("MNBHAPJG")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "H"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "F09"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "con-subd"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "MF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "FEMALE DR9"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OC_FARNELL"; Value = "unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OC_NEWARK"; Value = "unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "POPULARITY"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "F09"; VariantName = "[No Variations]"
+Change component parameters: Designator = "IC1" ("IC1"); Footprint = "SO16"; UniqueID = "\KFGUGOXR" ("KFGUGOXR")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "S"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "MAX232ECWE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_2"; Value = "P"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GND"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "maxim-6b"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "MAX3232CSE+"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "MAX232"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_2"; Value = "VCC-GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VCC"; Value = "VCC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "IC_ALT" ("IC_ALT"); Footprint = "SOIC127P600X175-8N"; UniqueID = "\MOBSOURQ" ("MOBSOURQ")
+Change component parameters (AddParameter): Name = "ARROW_PART_NUMBER"; Value = "ARROW_PART_NUMBER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ARROW_PRICE-STOCK"; Value = "ARROW_PRICE-STOCK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "XL1509-3.3E1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HEIGHT"; Value = "1.75mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "XL1509-3.3E1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANUFACTURER_NAME"; Value = "XLSEMI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANUFACTURER_PART_NUMBER"; Value = "XL1509-3.3E1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MOUSER_PART_NUMBER"; Value = "MOUSER_PART_NUMBER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MOUSER_PRICE-STOCK"; Value = "MOUSER_PRICE-STOCK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "XL1509-ADJE1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "XL1509-3.3E1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "IC_KEY" ("IC_KEY"); Footprint = "SOIC127P600X175-8N"; UniqueID = "\TSYBRHSN" ("TSYBRHSN")
+Change component parameters (AddParameter): Name = "ARROW_PART_NUMBER"; Value = "ARROW_PART_NUMBER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ARROW_PRICE-STOCK"; Value = "ARROW_PRICE-STOCK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "XL1509-3.3E1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HEIGHT"; Value = "1.75mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "XL1509-3.3E1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANUFACTURER_NAME"; Value = "XLSEMI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANUFACTURER_PART_NUMBER"; Value = "XL1509-3.3E1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MOUSER_PART_NUMBER"; Value = "MOUSER_PART_NUMBER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MOUSER_PRICE-STOCK"; Value = "MOUSER_PRICE-STOCK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "XL1509-ADJE1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "XL1509-3.3E1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "IC_POWER" ("IC_POWER"); Footprint = "SOIC127P600X175-8N"; UniqueID = "\LJPJNXUB" ("LJPJNXUB")
+Change component parameters (AddParameter): Name = "ARROW_PART_NUMBER"; Value = "ARROW_PART_NUMBER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ARROW_PRICE-STOCK"; Value = "ARROW_PRICE-STOCK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "XL1509-3.3E1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HEIGHT"; Value = "1.75mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "XL1509-3.3E1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANUFACTURER_NAME"; Value = "XLSEMI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANUFACTURER_PART_NUMBER"; Value = "XL1509-3.3E1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MOUSER_PART_NUMBER"; Value = "MOUSER_PART_NUMBER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MOUSER_PRICE-STOCK"; Value = "MOUSER_PRICE-STOCK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "XL1509-ADJE1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "XL1509-3.3E1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "K1" ("K1"); Footprint = "G5LE"; UniqueID = "\XEFPIQWR" ("XEFPIQWR")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "G5LE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_2"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "relay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANUFACTURER"; Value = "MANUFACTURER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "MPN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PART"; Value = "K1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PART_STATUS"; Value = "PART_STATUS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "POPULARITY"; Value = "13"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_2"; Value = "U"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L1" ("L1"); Footprint = "SDE0604A-470M"; UniqueID = "\PRULSNDP" ("PRULSNDP")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "INDUCTOR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "passives"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "SDE0604A-470M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "INDUCTOR"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L2" ("L2"); Footprint = "SDE0604A-470M"; UniqueID = "\ORQAEGRD" ("ORQAEGRD")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "INDUCTOR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "passives"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "SDE0604A-470M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "INDUCTOR"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L3" ("L3"); Footprint = "SDE0604A-470M"; UniqueID = "\OAGJJKOB" ("OAGJJKOB")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "INDUCTOR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "passives"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "SDE0604A-470M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "INDUCTOR"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q1" ("Q1"); Footprint = "BC847"; UniqueID = "\STSFQSGU" ("STSFQSGU")
+Change component parameters (AddParameter): Name = "ARROW_PART_NUMBER"; Value = "ARROW_PART_NUMBER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ARROW_PRICE-STOCK"; Value = "ARROW_PRICE-STOCK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "BC847"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HEIGHT"; Value = "1.3mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "BC847"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANUFACTURER_NAME"; Value = "KEC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANUFACTURER_PART_NUMBER"; Value = "BC847"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MOUSER_PART_NUMBER"; Value = "MOUSER_PART_NUMBER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MOUSER_PRICE-STOCK"; Value = "MOUSER_PRICE-STOCK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "BC847"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R1" ("R1"); Footprint = "R0805"; UniqueID = "\VOXCJASM" ("VOXCJASM")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "R0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "R-EU_"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "RA73F2A100RBTDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "POPULARITY"; Value = "86"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SPICEPREFIX"; Value = "R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "R-EU"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2" ("R2"); Footprint = "R0805"; UniqueID = "\QYHVSMWH" ("QYHVSMWH")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "R0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "R-EU_"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "RA73F2A100RBTDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "POPULARITY"; Value = "86"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SPICEPREFIX"; Value = "R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "R-EU"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3" ("R3"); Footprint = "R0805"; UniqueID = "\UUCTIARS" ("UUCTIARS")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "R0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "R-EU_"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "RA73F2A100RBTDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "POPULARITY"; Value = "86"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SPICEPREFIX"; Value = "R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "R-EU"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4" ("R4"); Footprint = "R0805"; UniqueID = "\GROHIHSN" ("GROHIHSN")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "R0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "R-EU_"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "rcl"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "RA73F2A100RBTDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "POPULARITY"; Value = "86"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SPICEPREFIX"; Value = "R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "R-EU"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RV1" ("RV1"); Footprint = "MOV14D471K"; UniqueID = "\OSWDBSUA" ("OSWDBSUA")
+Change component parameters (AddParameter): Name = "AVAILABILITY"; Value = "In Stock"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CHECK_PRICES"; Value = "https://www.snapeda.com/parts/MOV-14D471K/Bourns/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "MOV-14D471K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "MOV-14D471K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "MOV-14D471K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PACKAGE"; Value = "Disc-14 Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SNAPEDA_LINK"; Value = "https://www.snapeda.com/parts/MOV-14D471K/Bourns/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "MOV-14D471K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "T1" ("T1"); Footprint = "TRIMPOT"; UniqueID = "\DMDOYDKU" ("DMDOYDKU")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "TRIMPOT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "TRIMPOT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "EVM3ESX50B14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "TRIMPOT"; VariantName = "[No Variations]"
+Change component parameters: Designator = "T2" ("T2"); Footprint = "TRIMPOT"; UniqueID = "\EBFWAHTT" ("EBFWAHTT")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "TRIMPOT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "TRIMPOT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "EVM3ESX50B14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "TRIMPOT"; VariantName = "[No Variations]"
+Change component parameters: Designator = "T3" ("T3"); Footprint = "TRIMPOT"; UniqueID = "\YLRGQLSM" ("YLRGQLSM")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "TRIMPOT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "TRIMPOT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "EVM3ESX50B14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "TRIMPOT"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC2013X135X45LL10T25)
+Add component (AddParameter): Name = "Capacitance"; Value = "4.7 uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case\/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.murata.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C475KA88-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Body 2 x 1.25 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "GRM21BR61C475KA88L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type (Capacitors)"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "16 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "16 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.25 mm"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC2013X135X45LL10T25)
+Add component (AddParameter): Name = "Capacitance"; Value = "4.7 uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case\/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.murata.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C475KA88-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Body 2 x 1.25 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "GRM21BR61C475KA88L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type (Capacitors)"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "16 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "16 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.25 mm"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC2013X135X45LL10T25)
+Add component (AddParameter): Name = "Capacitance"; Value = "4.7 uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case\/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.murata.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C475KA88-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Body 2 x 1.25 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "GRM21BR61C475KA88L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type (Capacitors)"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "16 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "16 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.25 mm"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC2013X135X45LL10T25)
+Add component (AddParameter): Name = "Capacitance"; Value = "4.7 uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case\/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.murata.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C475KA88-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Body 2 x 1.25 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "GRM21BR61C475KA88L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type (Capacitors)"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "16 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "16 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.25 mm"; VariantName = "[No Variations]"
+Added Component: Designator=Cd?(CAPC2013X135X45LL10T25)
+Add component (AddParameter): Name = "Capacitance"; Value = "4.7 uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case\/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.murata.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C475KA88-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "03/2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Body 2 x 1.25 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "GRM21BR61C475KA88L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type (Capacitors)"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "16 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "16 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.25 mm"; VariantName = "[No Variations]"
+Added Component: Designator=IC_SERIAL?(SOIC127P600X175-16N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "MAX3232CSE+T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/max3232cset/analog-devices?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.75mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MAX3232CSE+T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "700-MAX3232CSET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX3232CSE%2bT?qs=CDqwynd4ZNoTB%252BLjbeQ4Qg%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=Cd?-1
+Added Pin To Net: NetName=GND Pin=IC_SERIAL?-15
+Change Net Name : Old Net Name=N$1 New Net Name=NetD1_1
+Change Net Name : Old Net Name=N$2 New Net Name=NetD2_1
+Change Net Name : Old Net Name=N$4 New Net Name=NetIC_ALT_3
+Change Net Name : Old Net Name=N$5 New Net Name=NetD3_1
+Change Net Name : Old Net Name=N$6 New Net Name=NetIC_KEY_3
+Change Net Name : Old Net Name=N$7 New Net Name=NetD4_A
+Change Net Name : Old Net Name=N$8 New Net Name=NetIC_POWER_3
+Change Net Name : Old Net Name=N$10 New Net Name=NetQ1_2
+Change Net Name : Old Net Name=N$11 New Net Name=NetC3_2
+Change Net Name : Old Net Name=N$12 New Net Name=NetC4_2
+Change Net Name : Old Net Name=N$13 New Net Name=NetC3_1
+Change Net Name : Old Net Name=N$17 New Net Name=NetC4_1
+Change Net Name : Old Net Name=N$18 New Net Name=NetC6_1
+Change Net Name : Old Net Name=N$19 New Net Name=NetC1_1
+Change Net Name : Old Net Name=N$20 New Net Name=NetFEMALE_2
+Change Net Name : Old Net Name=N$30 New Net Name=NetFEMALE_3
+Added Pin To Net: NetName=5V Pin=Cd?-2
+Added Pin To Net: NetName=5V Pin=IC_SERIAL?-16
+Added Net: Name=5V
+Added Pin To Net: NetName=C1 Pin=C?-2
+Added Pin To Net: NetName=C1 Pin=IC_SERIAL?-3
+Added Net: Name=C1
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=IC_SERIAL?-4
+Added Net: Name=NetC?_1
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_1" already exists
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=IC_SERIAL?-5
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=RX_MIC Pin=IC_SERIAL?-12
+Added Net: Name=RX_MIC
+Added Pin To Net: NetName=RX_RELAY Pin=IC_SERIAL?-13
+Added Net: Name=RX_RELAY
+Added Pin To Net: NetName=TX_MIC Pin=IC_SERIAL?-11
+Added Net: Name=TX_MIC
+Added Pin To Net: NetName=TX_RELAY Pin=IC_SERIAL?-14
+Added Net: Name=TX_RELAY
+Added Class: Name=v4.2.1 Embutida
+Added Rule: Name=Schematic Supply Nets

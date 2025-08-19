@@ -1,0 +1,22 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [v4.3 Embutida.PrjPcb]
+   Generated File[v4.3_Copper_Signal_Top.gbr]
+   Generated File[v4.3_Copper_Signal_Bot.gbr]
+   Generated File[v4.3_Legend_Top.gbr]
+   Generated File[v4.3_Legend_Bot.gbr]
+   Generated File[v4.3_Soldermask_Top.gbr]
+   Generated File[v4.3_Soldermask_Bot.gbr]
+   Generated File[v4.3_Paste_Top.gbr]
+   Generated File[v4.3_Paste_Bot.gbr]
+   Generated File[v4.3_Profile.gbr]
+   Generated File[v4.3_NPTH_Drill.gbr]
+   Generated File[v4.3_PTH_Drill.gbr]
+   Generated File[v4.3.EXTREP]
+   Generated File[v4.3.REP]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 13:51:14 On 19/08/2025

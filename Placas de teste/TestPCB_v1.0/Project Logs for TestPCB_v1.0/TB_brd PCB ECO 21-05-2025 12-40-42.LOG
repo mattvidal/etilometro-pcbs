@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=TX_EXT Pin=P1-2
+Removed Pin From Net: NetName=RX_EXT Pin=P1-3
+Removed Pin From Net: NetName=GND Pin=P1-5
+Change Component Comment : Designator=J3 Old Comment=L77DFE09S1AMN New Comment=DB9

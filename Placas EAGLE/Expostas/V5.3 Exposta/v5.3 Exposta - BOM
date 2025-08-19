@@ -1,0 +1,15 @@
+Part            Value                                    Device                                   Package     Description                                 MPN 
+C1              1µF                                      CAP_CERAMIC0805                          0805        Ceramic Capacitors                          GRM21BR71A105KA01K                                   
+C2              1µF                                      CAP_CERAMIC0805                          0805        Ceramic Capacitors                          GRM21BR71A105KA01K                                   
+ESPIRAL         Conector kk 8 vias                       22-05-7088-08                            7395-08     CONNECTOR                                   DS1070-08MVV6        
+FB1             MMZ2012Y152B                             FERRITE0805                              0805        Ferrite Bead                                MMZ2012Y152B                                   
+FB2             MMZ2012Y152B                             FERRITE0805                              0805        Ferrite Bead                                MMZ2012Y152B                                   
+PRESSURE_SENSOR PRESSURE_SENSOR                          PRESSURE_SENSORWITH                      MPS20N0040D                                             MPS20N0040D                                   
+R1              10K                                      RESISTOR0805                             0805        Resistors                                   CRCW121810K0FKTK                                   
+R2              10K                                      RESISTOR0805                             0805        Resistors                                   CRCW121810K0FKTK                                   
+R3              10K                                      RESISTOR0805                             0805        Resistors                                   CRCW121810K0FKTK                                   
+R4              10K                                      RESISTOR0805                             0805        Resistors                                   CRCW121810K0FKTK                                   
+SG1             F/QMX                                    F/QMX                                    F/QMX       BUZZER Source: Buerklin                     QMX-05             
+U$1             MICROMATCH-8                             MICROMATCH-8                                                                                     7-215464-8                                   
+U$2             WT32_SC01                                WT32_SC01                                WT32                                                    WT32-SC01                                   
+U1              ADS1115IDGST                             ADC_ADS1015                              MSOP10      ADS1015 - 12-bit 4-Channel I2C              ADS1115IDGST                                   

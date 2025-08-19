@@ -1,0 +1,5 @@
+Partlist exported from Hub da equipe: 1 Projeto: Admin Project Placa: v2.0 - Calibração v2 at 06/06/2024 11:06
+
+Qty Value     Device    Package Parts                                                                                   Description          POPULARITY
+10  332-06    332-06    332-06  SENSOR, SENSOR1, SENSOR2, SENSOR3, SENSOR4, SENSOR5, SENSOR6, SENSOR7, SENSOR8, SENSOR9 6 Pin - 2mm Dual Row 0         
+1   WT32_SC01 WT32_SC01 WT32    U$1                                                                                                                    

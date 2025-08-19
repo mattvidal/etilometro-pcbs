@@ -1,0 +1,3 @@
+v4.0.3 - enviada para a wego nas 100 primeiras unidades.
+v4.1 - trocados os pads dos indutores para o tamanho correto, trocado capacitor de estabilizaçao por diodo zener.
+v4.2 - volta do capacitor de estabilizaçao PTH do tamanho correto (PN: SCMR22G105SRBA0), adiçao do varistor pth de 20mm (PN: B72220S0200K101). Substituidos CI reguladores da chave e alternador por 3.3V (PN: XL1509-3.3E1).

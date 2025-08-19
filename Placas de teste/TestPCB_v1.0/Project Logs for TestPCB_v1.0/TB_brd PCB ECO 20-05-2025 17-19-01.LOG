@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=SW Pin=D1_5V-C
+Removed Pin From Net: NetName=SW Pin=D1_REG-C
+Removed Pin From Net: NetName=SW Pin=IC_5V-2
+Removed Pin From Net: NetName=SW Pin=IC_REG-2
+Removed Pin From Net: NetName=SW Pin=L1_5V-1
+Removed Pin From Net: NetName=SW Pin=L1_REG-1
+Change Net Name : Old Net Name=SW New Net Name=SW_3V3
+Added Pin To Net: NetName=SW_5V Pin=D1_5V-C
+Added Pin To Net: NetName=SW_5V Pin=IC_5V-2
+Added Pin To Net: NetName=SW_5V Pin=L1_5V-1
+Added Net: Name=SW_5V
+Added Pin To Net: NetName=SW_REG Pin=D1_REG-C
+Added Pin To Net: NetName=SW_REG Pin=IC_REG-2
+Added Pin To Net: NetName=SW_REG Pin=L1_REG-1
+Added Net: Name=SW_REG

@@ -1,0 +1,15 @@
+Part Value                    Device                           Package        Description                                             MPN                   
+C1   4.7uF                    C-0805                           C0805          Ceramic Capacitors                                      C0805X475J8RACAUTO                               
+C2   100nF                    C-0603                           C0603          Ceramic Capacitors                                      GRM155R61A104JA01D                               
+C3   100nF                    C-0603                           C0603          Ceramic Capacitors                                      GRM155R61A104JA01D                               
+C4   10uF                     C-0805                           C0805          Ceramic Capacitors                                      C0805C106J8RACAUTO                               
+L1   10uH                     L'PIO73'                         PIO73                                                                  MLF2012E100KT000                               
+Q1   Si2305DS                 MOSFET-P'SI2323CDS/SI2305DS<BR>' SOT23                                                                  SI2305DS-T1-E3                               
+R1   1k                       R-0603                           R0603                                                                  RCL12181K00FKEK                               
+R2   16k 1%                   R-0603                           R0603                                                                  ERJ-S1TF1602U                               
+R3   20k                      R-0603                           R0603                                                                  ERJ-1TNF2002U                               
+R4   10k                      R-0603                           R0603                                                                  CRCW121810K0FKTK                               
+U$1  DECADE-AT24C256-10TI-2.7 DECADE-AT24C256-10TI-2.7         DECADE-AT24CXX                                                         AT24C256-10TI-2.7                               
+U1   TPS62200                 TPS62200DBVR                     SOT23-5                                                                TPS62200DBVR                                
+U2   MQ303B                   MQ303A                           MQ303A                                                                 MQ303B                               
+X1   MICROMATCH-8             MICROMATCH-8                     MICROMATCH-8   MicroMaTch 8  7-215464-8 / 0-215464-8                   7-215464-8      

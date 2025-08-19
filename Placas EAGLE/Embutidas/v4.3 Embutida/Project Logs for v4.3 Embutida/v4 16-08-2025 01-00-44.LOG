@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=ALT_IN Pin=J3-2
+Added Pin To Net: NetName=3V3_ALT Pin=J3-2

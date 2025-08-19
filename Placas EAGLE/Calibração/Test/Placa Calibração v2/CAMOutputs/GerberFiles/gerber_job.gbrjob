@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2024-06-06T14:06:18Z",
+        "GenerationSoftware": {
+            "Application": "Fusion Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "v2.0 - Calibração v2"
+        },
+        "Owner": "Matheus Vidal <matheus.vidal@gsuite.iff.edu.br>",
+        "Size": {
+            "X": 99.21,
+            "Y": 105.5
+        }
+    }
+}

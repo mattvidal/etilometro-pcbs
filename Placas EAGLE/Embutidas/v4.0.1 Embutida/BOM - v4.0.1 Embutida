@@ -1,0 +1,41 @@
+Part             Value         MPN                 
+C1               100n          C0805C104K8RACAUTO
+C2               22uF/50v      EEH-ZA1H220P
+C3               100n          C0805C104K8RACAUTO
+C4               100n          C0805C104K8RACAUTO
+C5               100n          C0805C104K8RACAUTO
+C6               100n          C0805C104K8RACAUTO
+C7               2200 uF       EEV-FK1A222Q
+C8               22uF/50V      EEH-ZA1H220P
+C9               22uF/50V      EEH-ZA1H220P
+C13              10uF/50V      C2012X5R1H106K125AC
+C14              10uF/50V      C2012X5R1H106K125AC
+C15              10uF/50V      C2012X5R1H106K125AC
+C18              22uF/50v      EEH-ZA1H220P
+C19              22uF/50v      EEH-ZA1H220P
+D1               			   1N5822 SS34
+D2               			   1N5822 SS34
+D3               			   1N5822 SS34
+D4               			   1N5822 SS34
+ESPIRAL_MICROFIT               MOLEX 43045-0800
+EXTERNO_MICROFIT               MOLEX 43045-0600
+FB1              1A            BLM21AG121SN1D
+FEMALE                         FEMALE DR9
+IC1              MAX3232       MAX3232CSE+
+IC_ALT           			   XL1509-ADJE1
+IC_KEY          			   XL1509-ADJE1           
+IC_POWER         			   XL1509-ADJE1           
+IC_UP            			   SDB628                                                         
+L1               47uH          SDE0604A-470M                                                  
+L2               47uH          SDE0604A-470M                                                  
+L3               47uH          SDE0604A-470M                                                  
+L4               4.7uH         DR74-4R7-R                                                     
+R1               100           RA73F2A100RBTDF
+R2               100           RA73F2A100RBTDF
+R3               100           RA73F2A100RBTDF
+R4               200           CRCW0805200RJNEAIF
+STEP_UP          STEP-UP       SX1308                                                         
+T1               TRIMPOT 10K   EVM3ESX50B14                                                   
+T2               TRIMPOT 10K   EVM3ESX50B14                                                   
+T3               TRIMPOT 10K   EVM3ESX50B14                                                   
+T4               TRIMPOT 10K   EVM3ESX50B14                                                   

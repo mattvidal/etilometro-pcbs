@@ -1,0 +1,15 @@
+Part Value                    MPN
+C1   10µF                     GRM21BR71A106KA73K
+C2   100nF                    C0805C104K8RACAUTO
+C3   100nF                    C0805C104K8RACAUTO
+C5   4,7uF                    0805ZG475ZAT4A
+L1   10uH                     SDR7045-100M
+Q1   Si2305DS                 MOSFET-P'SI2323CDS/SI2305DS
+R1   1K                       RP73PF2A1K0BTDF
+R2   16K                      RK73H2ARTTD1602F
+R3   20K                      RCC080520K0FKEA
+R4   10K                      RCC080510K0FKEA
+U$1                           M24c64-wdw6tp Tssop8
+U1   TPS62200                 TPS62200DBVR
+U2   MQ303A                   MQ303B
+X2   332-06                   6 Pin - 2mm Dual Row

@@ -1,0 +1,86 @@
+Removed Pin From Net: NetName=VCC Pin=C10-+
+Removed Pin From Net: NetName=GND Pin=C10--
+Removed Pin From Net: NetName=VCC_PRE Pin=FB1-1
+Removed Member From Class: ClassName=v4.2.1 Embutida Member=C10
+Change Component DesignItemId : Designator=FB1 Old DesignItemId=0805 New DesignItemId=FERRITE0805
+Change Component DesignItemId : Designator=EXTERNO_MICROFIT Old DesignItemId=43045-0600 New DesignItemId=HEADER_POS6_?43045-0600
+Change Component DesignItemId : Designator=ESPIRAL_MICROFIT Old DesignItemId=43045-0800 New DesignItemId=HEADER_POS8_?43045-0800
+Change Component DesignItemId : Designator=C13 Old DesignItemId=C0805 New DesignItemId=C*-0805
+Change Component DesignItemId : Designator=C14 Old DesignItemId=C0805 New DesignItemId=C*-0805
+Change Component DesignItemId : Designator=C15 Old DesignItemId=C0805 New DesignItemId=C*-0805
+Change Component DesignItemId : Designator=C1 Old DesignItemId=C0805 New DesignItemId=C-EUC0805
+Change Component DesignItemId : Designator=C3 Old DesignItemId=C0805 New DesignItemId=C-EUC0805
+Change Component DesignItemId : Designator=C4 Old DesignItemId=C0805 New DesignItemId=C-EUC0805
+Change Component DesignItemId : Designator=C5 Old DesignItemId=C0805 New DesignItemId=C-EUC0805
+Change Component DesignItemId : Designator=C6 Old DesignItemId=C0805 New DesignItemId=C-EUC0805
+Change Component DesignItemId : Designator=RV1 Old DesignItemId=MOV14D471K New DesignItemId=MOV-14D471K
+Change Component DesignItemId : Designator=C2 Old DesignItemId=PANASONIC_D New DesignItemId=CPOL-EUD
+Change Component DesignItemId : Designator=C8 Old DesignItemId=PANASONIC_D New DesignItemId=CPOL-EUD
+Change Component DesignItemId : Designator=C9 Old DesignItemId=PANASONIC_D New DesignItemId=CPOL-EUD
+Change Component DesignItemId : Designator=R1 Old DesignItemId=R0805 New DesignItemId=R-EU_R0805
+Change Component DesignItemId : Designator=R2 Old DesignItemId=R0805 New DesignItemId=R-EU_R0805
+Change Component DesignItemId : Designator=R3 Old DesignItemId=R0805 New DesignItemId=R-EU_R0805
+Change Component DesignItemId : Designator=R4 Old DesignItemId=R0805 New DesignItemId=R-EU_R0805
+Change Component DesignItemId : Designator=L1 Old DesignItemId=SDE0604A-470M New DesignItemId=INDUCTOR
+Change Component DesignItemId : Designator=L2 Old DesignItemId=SDE0604A-470M New DesignItemId=INDUCTOR
+Change Component DesignItemId : Designator=L3 Old DesignItemId=SDE0604A-470M New DesignItemId=INDUCTOR
+Change Component DesignItemId : Designator=IC1 Old DesignItemId=SO16 New DesignItemId=MAX232ECWES
+Change Component DesignItemId : Designator=D1 Old DesignItemId=SODFL3518X115N New DesignItemId=1N5819HW1-7-F
+Change Component DesignItemId : Designator=D2 Old DesignItemId=SODFL3518X115N New DesignItemId=1N5819HW1-7-F
+Change Component DesignItemId : Designator=D3 Old DesignItemId=SODFL3518X115N New DesignItemId=1N5819HW1-7-F
+Change Component DesignItemId : Designator=D4 Old DesignItemId=SODFL3617X108N New DesignItemId=S1MFL
+Change Component DesignItemId : Designator=IC_ALT Old DesignItemId=SOIC127P600X175-8N New DesignItemId=XL1509-3.3E1
+Change Component DesignItemId : Designator=IC_KEY Old DesignItemId=SOIC127P600X175-8N New DesignItemId=XL1509-3.3E1
+Change Component DesignItemId : Designator=IC_POWER Old DesignItemId=SOIC127P600X175-8N New DesignItemId=XL1509-3.3E1
+Change Component Comment : Designator=FB1 Old Comment= New Comment=1A
+Change Component Comment : Designator=D1 Old Comment= New Comment=1N5819HW1-7-F
+Change Component Comment : Designator=D2 Old Comment= New Comment=1N5819HW1-7-F
+Change Component Comment : Designator=D3 Old Comment= New Comment=1N5819HW1-7-F
+Change Component Comment : Designator=R4 Old Comment= New Comment=10k
+Change Component Comment : Designator=C13 Old Comment= New Comment=10uF/50V
+Change Component Comment : Designator=C14 Old Comment= New Comment=10uF/50V
+Change Component Comment : Designator=C15 Old Comment= New Comment=10uF/50V
+Change Component Comment : Designator=C2 Old Comment= New Comment=22uF/50v
+Change Component Comment : Designator=C8 Old Comment= New Comment=22uF/50V
+Change Component Comment : Designator=C9 Old Comment= New Comment=22uF/50V
+Change Component Comment : Designator=L1 Old Comment= New Comment=47uH
+Change Component Comment : Designator=L2 Old Comment= New Comment=47uH
+Change Component Comment : Designator=L3 Old Comment= New Comment=47uH
+Change Component Comment : Designator=R1 Old Comment= New Comment=100
+Change Component Comment : Designator=R2 Old Comment= New Comment=100
+Change Component Comment : Designator=R3 Old Comment= New Comment=100
+Change Component Comment : Designator=C1 Old Comment= New Comment=100n
+Change Component Comment : Designator=C3 Old Comment= New Comment=100n
+Change Component Comment : Designator=C4 Old Comment= New Comment=100n
+Change Component Comment : Designator=C5 Old Comment= New Comment=100n
+Change Component Comment : Designator=C6 Old Comment= New Comment=100n
+Change Component Comment : Designator=Q1 Old Comment= New Comment=BC847
+Change Component Comment : Designator=FEMALE Old Comment= New Comment=F09H
+Change Component Comment : Designator=K1 Old Comment= New Comment=G5LE
+Change Component Comment : Designator=EXTERNO_MICROFIT Old Comment= New Comment=HEADER_POS6_?43045-0600
+Change Component Comment : Designator=ESPIRAL_MICROFIT Old Comment= New Comment=HEADER_POS8_?43045-0800
+Change Component Comment : Designator=IC1 Old Comment= New Comment=MAX232
+Change Component Comment : Designator=RV1 Old Comment= New Comment=MOV-14D471K
+Change Component Comment : Designator=D4 Old Comment= New Comment=S1MFL
+Change Component Comment : Designator=T1 Old Comment= New Comment=TRIMPOT 10K
+Change Component Comment : Designator=T2 Old Comment= New Comment=TRIMPOT 10K
+Change Component Comment : Designator=T3 Old Comment= New Comment=TRIMPOT 10K
+Change Component Comment : Designator=IC_ALT Old Comment= New Comment=XL1509-3.3E1
+Change Component Comment : Designator=IC_KEY Old Comment= New Comment=XL1509-3.3E1
+Change Component Comment : Designator=IC_POWER Old Comment= New Comment=XL1509-3.3E1
+Change Net Name : Old Net Name=N$1 New Net Name=NetD1_1
+Change Net Name : Old Net Name=N$2 New Net Name=NetD2_1
+Change Net Name : Old Net Name=N$4 New Net Name=NetIC_ALT_3
+Change Net Name : Old Net Name=N$5 New Net Name=NetD3_1
+Change Net Name : Old Net Name=N$6 New Net Name=NetIC_KEY_3
+Change Net Name : Old Net Name=N$7 New Net Name=NetD4_A
+Change Net Name : Old Net Name=N$8 New Net Name=NetIC_POWER_3
+Change Net Name : Old Net Name=N$10 New Net Name=NetQ1_2
+Change Net Name : Old Net Name=N$11 New Net Name=NetC3_2
+Change Net Name : Old Net Name=N$12 New Net Name=NetC4_2
+Change Net Name : Old Net Name=N$13 New Net Name=NetC3_1
+Change Net Name : Old Net Name=N$17 New Net Name=NetC4_1
+Change Net Name : Old Net Name=N$18 New Net Name=NetC6_1
+Change Net Name : Old Net Name=N$19 New Net Name=NetC1_1
+Change Net Name : Old Net Name=N$20 New Net Name=NetFEMALE_2
+Change Net Name : Old Net Name=N$30 New Net Name=NetFEMALE_3

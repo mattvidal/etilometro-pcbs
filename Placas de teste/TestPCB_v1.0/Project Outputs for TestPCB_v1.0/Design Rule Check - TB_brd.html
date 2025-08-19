@@ -1,0 +1,550 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://D:\Docs\Altium\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">19/08/2025</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">13:50:35</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:00</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc" class="file"><acronym title="D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc">D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">70</td></tr>
+</table>
+</td>
+</table><a name="ID2IHKJFQG432RPRCCJT0LGGGJGGZNTT2ZKNV1X1K0KW51Y3XFFTUF"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIMBMRJM2VN4DDPBDZWPU1AICLHB51PF4JA4UWCMUUOMETS3JV4AN">Clearance Constraint (Gap=7.874mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBGJUJITF4I51LG25OKRAFE2YHJU23G31ITVK4GAKOJZBTMMW51H">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDROWI5HH3SETZDBTMQD1A3SULLNIYBT3HLFOSFJFATMRLPO1OJYUM">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDPUZCYYMVJ3LDCD31E5OPES4SJL303D0UJPUUFILJ4KZ5UM2PKHLI">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDS5JZO50CI0S1OPO353G0QE3UNZ2DY0MG5Y3GCOSVOX25SFPI2RF">Width Constraint (Min=7.874mil) (Max=39.37mil) (Preferred=11.811mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWGQC22IG4GZPMZFE0M4NELNJBFSHCOO4CMRJ0CI0EA4JITVE3JKD">Routing Topology Rule(Topology=Shortest) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDNKN2BRR3JWSINIY5Y2AC5TPKFGE1R0IZN4LPNZNLOFSNEX2JWD5O">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDBYIEWTINS4GKY5DX12MPHLNILBPLLYR5L0YVFIXBU5T50IG1CNJ">Hole Size Constraint (Min=1mil) (Max=125.984mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMAS0ZVH02S0FLTHS0G55QYGILO2FWX23BI5PGFCE4F2OK4DDLUUE">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDVUNZMC1PPCI3HJTYUNHEQ0ZGUCRZOEQK3KDX3EN4LDQTQL5HCNRC">Minimum Solder Mask Sliver (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVOEVCFQD0GSEPOJY2KXXYOWYIDNEMJNUWDNYRVIK3LYHTUIBFZDB">Silk To Solder Mask (Clearance=7.874mil) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDKYKPWYD1KUR1DPMER5FYZERPUEBOJ35ENFHKJSCQS12J2QIEJG3B">Silk to Silk (Clearance=10mil) (All),(All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2LX0BN3A23H1BAHLDFBX5ZNQLGOTTWCQOAI3BWJO23XLIRA5BVVH">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">65</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDYK1YSQ3MSM0LJEMOFZS314HYRFQAXOSW304Y2OPM1ERS2NLLGBZH">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">70</td>
+</tr>
+</table><br><a name="IDROWI5HH3SETZDBTMQD1A3SULLNIYBT3HLFOSFJFATMRLPO1OJYUM"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1117.047mil|Location2.X=1127.047mil|Location1.Y=998.937mil|Location2.Y=4906.575mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1117.047mil|Location2.X=1127.047mil|Location1.Y=998.937mil|Location2.Y=4906.575mil|Absolute=True">Un-Routed Net Constraint: Track (1122.047mil,1003.937mil)(1122.047mil,4901.575mil) on Bottom Layer Dead Copper - Net Not Assigned.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1117.047mil|Location2.X=5575.866mil|Location1.Y=998.937mil|Location2.Y=1008.937mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1117.047mil|Location2.X=5575.866mil|Location1.Y=998.937mil|Location2.Y=1008.937mil|Absolute=True">Un-Routed Net Constraint: Track (1122.047mil,1003.937mil)(5570.866mil,1003.937mil) on Bottom Layer Dead Copper - Net Not Assigned.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1117.047mil|Location2.X=5575.866mil|Location1.Y=4896.575mil|Location2.Y=4906.575mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1117.047mil|Location2.X=5575.866mil|Location1.Y=4896.575mil|Location2.Y=4906.575mil|Absolute=True">Un-Routed Net Constraint: Track (1122.047mil,4901.575mil)(5570.866mil,4901.575mil) on Bottom Layer Dead Copper - Net Not Assigned.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5565.866mil|Location2.X=5575.866mil|Location1.Y=998.937mil|Location2.Y=4906.575mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5565.866mil|Location2.X=5575.866mil|Location1.Y=998.937mil|Location2.Y=4906.575mil|Absolute=True">Un-Routed Net Constraint: Track (5570.866mil,1003.937mil)(5570.866mil,4901.575mil) on Bottom Layer Dead Copper - Net Not Assigned.</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDKYKPWYD1KUR1DPMER5FYZERPUEBOJ35ENFHKJSCQS12J2QIEJG3B"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=10mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3455.791mil|Location2.X=3463.458mil|Location1.Y=3096.56mil|Location2.Y=3104.227mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3455.791mil|Location2.X=3463.458mil|Location1.Y=3096.56mil|Location2.Y=3104.227mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 10mil) Between Text "C_OUT_REG" (3471.101mil,3118.436mil) on Top Overlay And Track (3208.661mil,3100.394mil)(3523.622mil,3100.394mil) on Top Overlay Silk Text to Silk Clearance [0mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID2LX0BN3A23H1BAHLDFBX5ZNQLGOTTWCQOAI3BWJO23XLIRA5BVVH"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Net Antennae (Tolerance=0mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=1227.342mil|Location2.Y=1349.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=1227.342mil|Location2.Y=1349.299mil|Absolute=True">Net Antennae: Via (1279.527mil,1259.842mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=1544.093mil|Location2.Y=1666.049mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=1544.093mil|Location2.Y=1666.049mil|Absolute=True">Net Antennae: Via (1279.527mil,1576.593mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=1860.843mil|Location2.Y=1982.799mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=1860.843mil|Location2.Y=1982.799mil|Absolute=True">Net Antennae: Via (1279.527mil,1893.343mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=2177.593mil|Location2.Y=2299.549mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=2177.593mil|Location2.Y=2299.549mil|Absolute=True">Net Antennae: Via (1279.527mil,2210.093mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=2494.343mil|Location2.Y=2616.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=2494.343mil|Location2.Y=2616.299mil|Absolute=True">Net Antennae: Via (1279.527mil,2526.843mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=2811.093mil|Location2.Y=2933.049mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=2811.093mil|Location2.Y=2933.049mil|Absolute=True">Net Antennae: Via (1279.527mil,2843.593mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=3127.843mil|Location2.Y=3249.799mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=3127.843mil|Location2.Y=3249.799mil|Absolute=True">Net Antennae: Via (1279.527mil,3160.343mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=3761.343mil|Location2.Y=3883.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=3761.343mil|Location2.Y=3883.299mil|Absolute=True">Net Antennae: Via (1279.527mil,3793.843mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=4394.843mil|Location2.Y=4516.8mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=4394.843mil|Location2.Y=4516.8mil|Absolute=True">Net Antennae: Via (1279.527mil,4427.343mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=4731.279mil|Location2.Y=4853.236mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.027mil|Location2.X=1322.863mil|Location1.Y=4731.279mil|Location2.Y=4853.236mil|Absolute=True">Net Antennae: Via (1279.527mil,4763.779mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.028mil|Location2.X=1322.863mil|Location1.Y=4078.093mil|Location2.Y=4200.05mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1247.028mil|Location2.X=1322.863mil|Location1.Y=4078.093mil|Location2.Y=4200.05mil|Absolute=True">Net Antennae: Via (1279.528mil,4110.593mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1483.248mil|Location2.X=1559.083mil|Location1.Y=1128.917mil|Location2.Y=1250.873mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1483.248mil|Location2.X=1559.083mil|Location1.Y=1128.917mil|Location2.Y=1250.873mil|Absolute=True">Net Antennae: Via (1515.748mil,1161.417mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1522.618mil|Location2.X=1598.454mil|Location1.Y=1544.093mil|Location2.Y=1666.049mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1522.618mil|Location2.X=1598.454mil|Location1.Y=1544.093mil|Location2.Y=1666.049mil|Absolute=True">Net Antennae: Via (1555.118mil,1576.593mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1522.618mil|Location2.X=1598.454mil|Location1.Y=1860.843mil|Location2.Y=1982.799mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1522.618mil|Location2.X=1598.454mil|Location1.Y=1860.843mil|Location2.Y=1982.799mil|Absolute=True">Net Antennae: Via (1555.118mil,1893.343mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1522.618mil|Location2.X=1598.454mil|Location1.Y=2494.343mil|Location2.Y=2616.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1522.618mil|Location2.X=1598.454mil|Location1.Y=2494.343mil|Location2.Y=2616.299mil|Absolute=True">Net Antennae: Via (1555.118mil,2526.843mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1522.618mil|Location2.X=1598.454mil|Location1.Y=2811.093mil|Location2.Y=2933.049mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1522.618mil|Location2.X=1598.454mil|Location1.Y=2811.093mil|Location2.Y=2933.049mil|Absolute=True">Net Antennae: Via (1555.118mil,2843.593mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1680.098mil|Location2.X=1755.934mil|Location1.Y=4731.279mil|Location2.Y=4853.236mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1680.098mil|Location2.X=1755.934mil|Location1.Y=4731.279mil|Location2.Y=4853.236mil|Absolute=True">Net Antennae: Via (1712.598mil,4763.779mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1817.894mil|Location2.X=1893.729mil|Location1.Y=1109.232mil|Location2.Y=1231.188mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1817.894mil|Location2.X=1893.729mil|Location1.Y=1109.232mil|Location2.Y=1231.188mil|Absolute=True">Net Antennae: Via (1850.394mil,1141.732mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1866.633mil|Location2.X=1942.469mil|Location1.Y=1929.114mil|Location2.Y=2051.07mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1866.633mil|Location2.X=1942.469mil|Location1.Y=1929.114mil|Location2.Y=2051.07mil|Absolute=True">Net Antennae: Via (1899.133mil,1961.614mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1866.633mil|Location2.X=1942.469mil|Location1.Y=2618.09mil|Location2.Y=2740.046mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1866.633mil|Location2.X=1942.469mil|Location1.Y=2618.09mil|Location2.Y=2740.046mil|Absolute=True">Net Antennae: Via (1899.133mil,2650.59mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1866.633mil|Location2.X=1942.469mil|Location1.Y=2952.736mil|Location2.Y=3074.692mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1866.633mil|Location2.X=1942.469mil|Location1.Y=2952.736mil|Location2.Y=3074.692mil|Absolute=True">Net Antennae: Via (1899.133mil,2985.236mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1886.318mil|Location2.X=1962.154mil|Location1.Y=3720.453mil|Location2.Y=3842.409mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1886.318mil|Location2.X=1962.154mil|Location1.Y=3720.453mil|Location2.Y=3842.409mil|Absolute=True">Net Antennae: Via (1918.818mil,3752.953mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2113.169mil|Location2.X=2189.005mil|Location1.Y=4731.279mil|Location2.Y=4853.236mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2113.169mil|Location2.X=2189.005mil|Location1.Y=4731.279mil|Location2.Y=4853.236mil|Absolute=True">Net Antennae: Via (2145.669mil,4763.779mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2144.164mil|Location2.X=2219.999mil|Location1.Y=1523.911mil|Location2.Y=1645.868mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2144.164mil|Location2.X=2219.999mil|Location1.Y=1523.911mil|Location2.Y=1645.868mil|Absolute=True">Net Antennae: Via (2176.664mil,1556.411mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2523.743mil|Location2.X=2599.578mil|Location1.Y=1128.917mil|Location2.Y=1250.873mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2523.743mil|Location2.X=2599.578mil|Location1.Y=1128.917mil|Location2.Y=1250.873mil|Absolute=True">Net Antennae: Via (2556.243mil,1161.417mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2546.24mil|Location2.X=2622.075mil|Location1.Y=4731.279mil|Location2.Y=4853.236mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2546.24mil|Location2.X=2622.075mil|Location1.Y=4731.279mil|Location2.Y=4853.236mil|Absolute=True">Net Antennae: Via (2578.74mil,4763.779mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2693.405mil|Location2.X=2769.24mil|Location1.Y=1436.988mil|Location2.Y=1558.944mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2693.405mil|Location2.X=2769.24mil|Location1.Y=1436.988mil|Location2.Y=1558.944mil|Absolute=True">Net Antennae: Via (2725.905mil,1469.488mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2732.775mil|Location2.X=2808.611mil|Location1.Y=3720.453mil|Location2.Y=3842.409mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2732.775mil|Location2.X=2808.611mil|Location1.Y=3720.453mil|Location2.Y=3842.409mil|Absolute=True">Net Antennae: Via (2765.275mil,3752.953mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2752.46mil|Location2.X=2828.296mil|Location1.Y=2086.594mil|Location2.Y=2208.55mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2752.46mil|Location2.X=2828.296mil|Location1.Y=2086.594mil|Location2.Y=2208.55mil|Absolute=True">Net Antennae: Via (2784.96mil,2119.094mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2831.2mil|Location2.X=2907.036mil|Location1.Y=2499.98mil|Location2.Y=2621.936mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2831.2mil|Location2.X=2907.036mil|Location1.Y=2499.98mil|Location2.Y=2621.936mil|Absolute=True">Net Antennae: Via (2863.7mil,2532.48mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2850.885mil|Location2.X=2926.721mil|Location1.Y=3307.067mil|Location2.Y=3429.023mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2850.885mil|Location2.X=2926.721mil|Location1.Y=3307.067mil|Location2.Y=3429.023mil|Absolute=True">Net Antennae: Via (2883.385mil,3339.567mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2979.311mil|Location2.X=3055.146mil|Location1.Y=4731.279mil|Location2.Y=4853.236mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2979.311mil|Location2.X=3055.146mil|Location1.Y=4731.279mil|Location2.Y=4853.236mil|Absolute=True">Net Antennae: Via (3011.811mil,4763.779mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2998.996mil|Location2.X=3074.831mil|Location1.Y=4160.413mil|Location2.Y=4282.369mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2998.996mil|Location2.X=3074.831mil|Location1.Y=4160.413mil|Location2.Y=4282.369mil|Absolute=True">Net Antennae: Via (3031.496mil,4192.913mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3043.99mil|Location2.X=3119.826mil|Location1.Y=1128.917mil|Location2.Y=1250.873mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3043.99mil|Location2.X=3119.826mil|Location1.Y=1128.917mil|Location2.Y=1250.873mil|Absolute=True">Net Antennae: Via (3076.49mil,1161.417mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3412.381mil|Location2.X=3488.217mil|Location1.Y=4731.279mil|Location2.Y=4853.236mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3412.381mil|Location2.X=3488.217mil|Location1.Y=4731.279mil|Location2.Y=4853.236mil|Absolute=True">Net Antennae: Via (3444.881mil,4763.779mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3432.066mil|Location2.X=3507.902mil|Location1.Y=4160.413mil|Location2.Y=4282.369mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3432.066mil|Location2.X=3507.902mil|Location1.Y=4160.413mil|Location2.Y=4282.369mil|Absolute=True">Net Antennae: Via (3464.566mil,4192.913mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3564.238mil|Location2.X=3640.073mil|Location1.Y=1128.917mil|Location2.Y=1250.873mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3564.238mil|Location2.X=3640.073mil|Location1.Y=1128.917mil|Location2.Y=1250.873mil|Absolute=True">Net Antennae: Via (3596.738mil,1161.417mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3776.082mil|Location2.X=3851.918mil|Location1.Y=3484.232mil|Location2.Y=3606.188mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3776.082mil|Location2.X=3851.918mil|Location1.Y=3484.232mil|Location2.Y=3606.188mil|Absolute=True">Net Antennae: Via (3808.582mil,3516.732mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3845.452mil|Location2.X=3921.288mil|Location1.Y=4731.279mil|Location2.Y=4853.236mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3845.452mil|Location2.X=3921.288mil|Location1.Y=4731.279mil|Location2.Y=4853.236mil|Absolute=True">Net Antennae: Via (3877.952mil,4763.779mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3865.137mil|Location2.X=3940.973mil|Location1.Y=4160.413mil|Location2.Y=4282.369mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3865.137mil|Location2.X=3940.973mil|Location1.Y=4160.413mil|Location2.Y=4282.369mil|Absolute=True">Net Antennae: Via (3897.637mil,4192.913mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4084.485mil|Location2.X=4160.32mil|Location1.Y=1128.917mil|Location2.Y=1250.873mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4084.485mil|Location2.X=4160.32mil|Location1.Y=1128.917mil|Location2.Y=1250.873mil|Absolute=True">Net Antennae: Via (4116.985mil,1161.417mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.917mil|Location2.X=4174.752mil|Location1.Y=2409.429mil|Location2.Y=2531.385mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.917mil|Location2.X=4174.752mil|Location1.Y=2409.429mil|Location2.Y=2531.385mil|Absolute=True">Net Antennae: Via (4131.417mil,2441.929mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4150.098mil|Location2.X=4225.933mil|Location1.Y=3011.791mil|Location2.Y=3133.747mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4150.098mil|Location2.X=4225.933mil|Location1.Y=3011.791mil|Location2.Y=3133.747mil|Absolute=True">Net Antennae: Via (4182.598mil,3044.291mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4189.468mil|Location2.X=4265.303mil|Location1.Y=1732.264mil|Location2.Y=1854.22mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4189.468mil|Location2.X=4265.303mil|Location1.Y=1732.264mil|Location2.Y=1854.22mil|Absolute=True">Net Antennae: Via (4221.968mil,1764.764mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4209.153mil|Location2.X=4284.989mil|Location1.Y=3484.232mil|Location2.Y=3606.188mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4209.153mil|Location2.X=4284.989mil|Location1.Y=3484.232mil|Location2.Y=3606.188mil|Absolute=True">Net Antennae: Via (4241.653mil,3516.732mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4278.523mil|Location2.X=4354.359mil|Location1.Y=4731.279mil|Location2.Y=4853.236mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4278.523mil|Location2.X=4354.359mil|Location1.Y=4731.279mil|Location2.Y=4853.236mil|Absolute=True">Net Antennae: Via (4311.023mil,4763.779mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4298.208mil|Location2.X=4374.044mil|Location1.Y=4160.413mil|Location2.Y=4282.369mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4298.208mil|Location2.X=4374.044mil|Location1.Y=4160.413mil|Location2.Y=4282.369mil|Absolute=True">Net Antennae: Via (4330.708mil,4192.913mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4386.318mil|Location2.X=4462.154mil|Location1.Y=2165.334mil|Location2.Y=2287.291mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4386.318mil|Location2.X=4462.154mil|Location1.Y=2165.334mil|Location2.Y=2287.291mil|Absolute=True">Net Antennae: Via (4418.818mil,2197.834mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4396.634mil|Location2.X=4472.469mil|Location1.Y=1128.917mil|Location2.Y=1250.873mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4396.634mil|Location2.X=4472.469mil|Location1.Y=1128.917mil|Location2.Y=1250.873mil|Absolute=True">Net Antennae: Via (4429.134mil,1161.417mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4602.854mil|Location2.X=4678.689mil|Location1.Y=1751.949mil|Location2.Y=1873.905mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4602.854mil|Location2.X=4678.689mil|Location1.Y=1751.949mil|Location2.Y=1873.905mil|Absolute=True">Net Antennae: Via (4635.354mil,1784.449mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4642.224mil|Location2.X=4718.059mil|Location1.Y=3484.232mil|Location2.Y=3606.188mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4642.224mil|Location2.X=4718.059mil|Location1.Y=3484.232mil|Location2.Y=3606.188mil|Absolute=True">Net Antennae: Via (4674.724mil,3516.732mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4711.594mil|Location2.X=4787.429mil|Location1.Y=4731.279mil|Location2.Y=4853.236mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4711.594mil|Location2.X=4787.429mil|Location1.Y=4731.279mil|Location2.Y=4853.236mil|Absolute=True">Net Antennae: Via (4744.094mil,4763.779mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4731.279mil|Location2.X=4807.114mil|Location1.Y=4160.413mil|Location2.Y=4282.369mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4731.279mil|Location2.X=4807.114mil|Location1.Y=4160.413mil|Location2.Y=4282.369mil|Absolute=True">Net Antennae: Via (4763.779mil,4192.913mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4996.555mil|Location2.X=5072.39mil|Location1.Y=3720.453mil|Location2.Y=3842.409mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4996.555mil|Location2.X=5072.39mil|Location1.Y=3720.453mil|Location2.Y=3842.409mil|Absolute=True">Net Antennae: Via (5029.055mil,3752.953mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5035.925mil|Location2.X=5111.76mil|Location1.Y=2559.035mil|Location2.Y=2680.991mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5035.925mil|Location2.X=5111.76mil|Location1.Y=2559.035mil|Location2.Y=2680.991mil|Absolute=True">Net Antennae: Via (5068.425mil,2591.535mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5035.925mil|Location2.X=5111.76mil|Location1.Y=2893.681mil|Location2.Y=3015.637mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5035.925mil|Location2.X=5111.76mil|Location1.Y=2893.681mil|Location2.Y=3015.637mil|Absolute=True">Net Antennae: Via (5068.425mil,2926.181mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5124.98mil|Location2.X=5200.815mil|Location1.Y=1128.917mil|Location2.Y=1250.873mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5124.98mil|Location2.X=5200.815mil|Location1.Y=1128.917mil|Location2.Y=1250.873mil|Absolute=True">Net Antennae: Via (5157.48mil,1161.417mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5321.831mil|Location2.X=5397.666mil|Location1.Y=1187.972mil|Location2.Y=1309.928mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5321.831mil|Location2.X=5397.666mil|Location1.Y=1187.972mil|Location2.Y=1309.928mil|Absolute=True">Net Antennae: Via (5354.331mil,1220.472mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5321.831mil|Location2.X=5397.666mil|Location1.Y=1640.728mil|Location2.Y=1762.684mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5321.831mil|Location2.X=5397.666mil|Location1.Y=1640.728mil|Location2.Y=1762.684mil|Absolute=True">Net Antennae: Via (5354.331mil,1673.228mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5321.831mil|Location2.X=5397.666mil|Location1.Y=2093.484mil|Location2.Y=2215.44mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5321.831mil|Location2.X=5397.666mil|Location1.Y=2093.484mil|Location2.Y=2215.44mil|Absolute=True">Net Antennae: Via (5354.331mil,2125.984mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5321.831mil|Location2.X=5397.666mil|Location1.Y=2506.87mil|Location2.Y=2628.826mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5321.831mil|Location2.X=5397.666mil|Location1.Y=2506.87mil|Location2.Y=2628.826mil|Absolute=True">Net Antennae: Via (5354.331mil,2539.37mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5321.831mil|Location2.X=5397.666mil|Location1.Y=2979.311mil|Location2.Y=3101.267mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5321.831mil|Location2.X=5397.666mil|Location1.Y=2979.311mil|Location2.Y=3101.267mil|Absolute=True">Net Antennae: Via (5354.331mil,3011.811mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5321.831mil|Location2.X=5397.666mil|Location1.Y=3432.067mil|Location2.Y=3554.023mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5321.831mil|Location2.X=5397.666mil|Location1.Y=3432.067mil|Location2.Y=3554.023mil|Absolute=True">Net Antennae: Via (5354.331mil,3464.567mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5321.831mil|Location2.X=5397.666mil|Location1.Y=3884.823mil|Location2.Y=4006.779mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5321.831mil|Location2.X=5397.666mil|Location1.Y=3884.823mil|Location2.Y=4006.779mil|Absolute=True">Net Antennae: Via (5354.331mil,3917.323mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletr%C3%B4nica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5321.831mil|Location2.X=5397.666mil|Location1.Y=4278.524mil|Location2.Y=4400.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projetos\Etilometro\Eletrônica\Placas de teste\TestPCB_v1.0\brd\TB_brd.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5321.831mil|Location2.X=5397.666mil|Location1.Y=4278.524mil|Location2.Y=4400.48mil|Absolute=True">Net Antennae: Via (5354.331mil,4311.024mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

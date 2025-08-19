@@ -1,0 +1,81 @@
+Removed Pin From Net: NetName=24V Pin=CIN_5V-1
+Removed Pin From Net: NetName=GND Pin=CIN_5V-2
+Removed Pin From Net: NetName=ALT_IN Pin=CIN_ALT-1
+Removed Pin From Net: NetName=GND Pin=CIN_ALT-2
+Removed Pin From Net: NetName=KEY_IN Pin=CIN_KEY-1
+Removed Pin From Net: NetName=GND Pin=CIN_KEY-2
+Change Component Footprint: Designator=CIN_5V Old Footprint=CAPAE1280X1400N New Footprint=FP-FKSG-MFG
+Change Component Footprint: Designator=CIN_ALT Old Footprint=CAPAE1280X1400N New Footprint=FP-FKSG-MFG
+Change Component Footprint: Designator=CIN_KEY Old Footprint=CAPAE1280X1400N New Footprint=FP-FKSG-MFG
+Change Component Comment : Designator=CIN_5V Old Comment=EDH477M035S9RAA New Comment=EEEFK1V471SP
+Change Component Comment : Designator=CIN_ALT Old Comment=EDH477M035S9RAA New Comment=EEEFK1V471SP
+Change Component Comment : Designator=CIN_KEY Old Comment=EDH477M035S9RAA New Comment=EEEFK1V471SP
+Change Managed Component Library Link : Designator=CIN_5V Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=597E7ED2-81DD-4536-8BCE-02469E59E9D1 Old RevisionGUID= New RevisionGUID=90D18DC6-57EB-4E9E-AD40-4307A79DED2E
+Change Managed Component Library Link : Designator=CIN_ALT Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=597E7ED2-81DD-4536-8BCE-02469E59E9D1 Old RevisionGUID= New RevisionGUID=90D18DC6-57EB-4E9E-AD40-4307A79DED2E
+Change Managed Component Library Link : Designator=CIN_KEY Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=597E7ED2-81DD-4536-8BCE-02469E59E9D1 Old RevisionGUID= New RevisionGUID=90D18DC6-57EB-4E9E-AD40-4307A79DED2E
+Change component parameters: Designator = "CIN_5V" ("CIN_5V"); Footprint = "CAPAE1280X1400N"; UniqueID = "\UHKGLCKG" ("\UHKGLCKG")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "470uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "Radial"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Diameter"; Value = "10mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ESR (Equivalent Series Resistance)"; Value = "80mR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "10.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "0.413inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Life (Hours)"; Value = "2000Hour"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Cut Tape"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarity"; Value = "Polar"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ripple Current"; Value = "552.5mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ripple Current (AC)"; Value = "850mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "35V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "35V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "CIN_ALT" ("CIN_ALT"); Footprint = "CAPAE1280X1400N"; UniqueID = "\NRHTFVOP" ("\NRHTFVOP")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "470uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "Radial"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Diameter"; Value = "10mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ESR (Equivalent Series Resistance)"; Value = "80mR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "10.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "0.413inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Life (Hours)"; Value = "2000Hour"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Cut Tape"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarity"; Value = "Polar"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ripple Current"; Value = "552.5mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ripple Current (AC)"; Value = "850mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "35V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "35V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "CIN_KEY" ("CIN_KEY"); Footprint = "CAPAE1280X1400N"; UniqueID = "\BBLVVAZI" ("\BBLVVAZI")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "470uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "Radial"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Diameter"; Value = "10mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ESR (Equivalent Series Resistance)"; Value = "80mR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "10.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "0.413inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Life (Hours)"; Value = "2000Hour"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Cut Tape"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarity"; Value = "Polar"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ripple Current"; Value = "552.5mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ripple Current (AC)"; Value = "850mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "35V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "35V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=CIN_5V-1
+Added Pin To Net: NetName=24V Pin=CIN_5V-2
+Added Pin To Net: NetName=GND Pin=CIN_ALT-1
+Added Pin To Net: NetName=ALT_IN Pin=CIN_ALT-2
+Added Pin To Net: NetName=GND Pin=CIN_KEY-1
+Added Pin To Net: NetName=KEY_IN Pin=CIN_KEY-2
